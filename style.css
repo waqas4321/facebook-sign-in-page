@@ -1,0 +1,97 @@
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 60px;
+}
+
+.firstsection > div  {
+    margin-top: 50px;
+}
+
+h1 {
+    color: blue;
+    font-size: 300%;
+}
+
+p {
+    font-size: 100%;
+}
+
+.rightside {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 20% black;
+
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#email {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#password {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+[type=submit] {
+    width: 100%;
+    padding: 5%;
+    background-color: rgb(77, 77, 238);
+    color: white;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+[type=submit]:hover {
+    background-color: blue;
+}
+
+#forget {
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Create {
+    width: 70%;
+    padding: 5%;
+    background: rgb(77, 239, 77);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#Create:hover {
+    background-color: rgb(14, 169, 14);
+}
