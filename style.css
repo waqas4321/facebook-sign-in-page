@@ -11,24 +11,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* index 1st page */
+
+body {
+    background-color: #dee2e6;
+}
+
 
 .firstsection {
     display: flex;
     justify-content: space-around;
-    margin: 100px 60px;
+    margin: 50px 100px;
 }
 
 .firstsection > div  {
     margin-top: 50px;
 }
 
+.leftside h1 {
+    margin-top: 35%;
+} 
+
+
 h1 {
-    color: blue;
-    font-size: 300%;
+    color: #3B5998;
+    font-size: 400%;
+    margin-bottom: 10px;
 }
 
 p {
-    font-size: 100%;
+    font-size: 150%;
 }
 
 .rightside {
@@ -42,18 +54,19 @@ p {
 
 form {
     background-color: #fff;
-    padding: 30px;
+    padding: 80px;
     border: 1px solid white;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
 }
 
 #email {
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    margin-bottom: 6%;
     border-radius: 10px;
 }
 
@@ -61,22 +74,23 @@ form {
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    margin-bottom: 6%;
     border-radius: 10px;
 }
 
 [type=submit] {
     width: 100%;
     padding: 5%;
-    background-color: rgb(77, 77, 238);
+    background-color: #3B5998;
     color: white;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     box-sizing: border-box;
     border-radius: 10px;
 }
 [type=submit]:hover {
-    background-color: blue;
+    background-color: #4971c8;
 }
+
 
 #forget {
     background-color: white;
@@ -85,13 +99,53 @@ form {
     border-radius: 10px;
 }
 
-#Create {
+.ptn-prime {
+    text-decoration: none;
     width: 70%;
     padding: 5%;
-    background: rgb(77, 239, 77);
+    background: #66A752;
     border: 1px solid white;
     border-radius: 10px;
 }
-#Create:hover {
-    background-color: rgb(14, 169, 14);
+.ptn-prime:hover {
+    background-color: #91de7a;
 }
+
+/* index 1st page  */
+
+/* signUp page  */
+.upper-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3B5998;
+}
+.left h1 {
+    color: white;
+    background-color: #3B5998;
+    font-size: 50px;
+    margin-top: 30px;
+}
+#submit {
+    display: inline-block;
+    border: none;
+    border-radius: 0px;
+    padding: 1%;
+    width: 10%;
+    display: inline;
+    margin-top: 10px;
+}
+
+.right {
+    display: inline;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.left-content{
+    margin-top: 200px;
+}
+
+/* signUp page  */
